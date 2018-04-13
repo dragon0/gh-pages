@@ -52,3 +52,5 @@ ghp-push:
 gh-pages-clean:
 	$(RM) -r $(GHP_CACHE_DIR)
 
+.PHONY: gh-pages ghp-publish ghp-clone ghp-verify-url ghp-clean ghp-fetch ghp-checkout ghp-rm ghp-copy ghp-set-user ghp-commit ghp-push gh-pages-clean
+
